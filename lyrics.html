@@ -4,17 +4,28 @@
     <title> My song lyrics</title>
 </head>
 <body>
-    <h1> Io ti daro di più</h1>
-    <h4> Song by Bobby Vinton</h4>
-    <a>
-        <a href="https://youtu.be/djrNDu0I2iU?si=NemyXMvG02-CJ01T" 
-    
-        target="_blank"> 
-        original video
-    </a>
+    <!-- Contenedor principal para limitar el ancho y centrar el contenido -->
+<div style="max-width: 600px; margin: 0 auto;">
+
+    <!-- Caja flex para poner el título a la izquierda y el audio a la derecha -->
+    <div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
+        
+        <!-- Bloque de textos (Izquierda) -->
+        <div>
+            <h1 style="margin: 0 0 5px 0;">Io ti daro di più</h1>
+            <h4 style="margin: 0 0 10px 0;">Song by Bobby Vinton</h4>
+            <a href="https://youtu.be" target="_blank">original video</a>
+        </div>
+
+        <!-- Reproductor de audio (Derecha) -->
+        <audio controls>
+            <source src="Am I Losing You - Bobby Vinton Original y traducido al Español Lyrics.mp3" type="audio/mpeg">
+        </audio>
+
+    </div>
+    <hr style="margin-top: 20px;">
+    <br>
        
-<hr>
-<br>
 <pre>
     Una volta, che una volta
     I'd like to know just how you feel
@@ -46,7 +57,7 @@
     Am I losing you?
     Am I losing you
 </pre> 
-</a>
+</div>
 </body>
 </html>
 
